@@ -3,9 +3,9 @@
 # Module 1 capstone project
 
 > **Welcome to my HTML/CSS and JavaScript basics capstone project on github !!!**
-> It's a Chess world championship conference website
+> It is Matrix software company webiste
 
-![screenshot](resources/app-screenshot-hello-section.png)
+![screenshot](assets/images/screenshot.png)
 
 <details>
   <summary>Please click to view more sections</summary>
@@ -22,10 +22,10 @@
 
 ## Authors
 
-👤 **Soufiane Boursen**
+👤 **Dagic zewdu**
 
-- GitHub: [@Sboursen](https://github.com/Sboursen)
-- Twitter: [@sboursen_dev](https://twitter.com/sboursen_dev)
+- GitHub: [@Dagic](https://github.com/Sboursen)
+- Twitter: [@Dagic](https://twitter.com/sboursen_dev)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/sboursen)
 
 ## Contributors
@@ -35,9 +35,9 @@
 
 👤 **A**
 
-- GitHub: [@A](https://github.com/A)
-- Twitter: [@A](https://twitter.com/A)
-- LinkedIn: [A](https://linkedin.com/in/A)
+- GitHub: [@A](https://github.com/Dagic-zewdu)
+- Twitter: [@A](https://twitter.com/dagic4)
+- LinkedIn: [A](https://www.linkedin.com/in/dagi-zewdu-21b835215/)
 
 👤 **A**
 
@@ -47,7 +47,7 @@
 
 ## Show your support
 
-Give a ⭐️ if you like my portfolio!
+Give a ⭐️ if you like my project!
 
 ## 📝 License
 
