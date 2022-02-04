@@ -8,9 +8,11 @@ const closeBtn = document.querySelector('.closebtn');
 const sticky = navbar.offsetTop;
 const openNav = () => {
   mobileMenu.style.width = '100%';
+  document.body.style.overflow = 'hidden';
 };
 const closeNav = () => {
   mobileMenu.style.width = '0%';
+  document.body.style.overflow = 'scroll';
 };
 toggle.addEventListener('click', openNav);
 closeBtn.addEventListener('click', closeNav);
