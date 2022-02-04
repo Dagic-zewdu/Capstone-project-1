@@ -410,6 +410,7 @@ footer {
   flex-direction: column;
   align-items: center;
   border-top: 2px solid #eee;
+  padding-top: 3%;
 }
 
 .logo-footer {
