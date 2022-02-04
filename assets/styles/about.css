@@ -121,3 +121,8 @@ hr.history-experience {
 footer {
   margin-top: 40px;
 }
+
+.about-footer {
+  background-color: #272a31;
+  padding-top: 1%;
+}

@@ -414,14 +414,26 @@ footer {
 
 .logo-footer {
   display: flex;
-  width: 76%;
+  width: 80%;
   align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.footer-img-container {
+  flex:1;
+  display: flex;
   justify-content: center;
 }
 
 .footer-img {
-  height: 120px;
-  width: 100px;
+  height:120px;
+  width: 120px;
+  object-fit: cover;
+}
+
+.footer-quote {
+  flex: 2;
 }
 
 @media only screen and (max-width: 768px) {
@@ -444,8 +456,11 @@ footer {
     margin-top: 20px;
   }
 
+   footer {
+    padding-top: 5%;
+   }
   .logo-footer {
-    width: 96% !important;
+    width: 90% !important;
   }
 
   .experience-img-container {
