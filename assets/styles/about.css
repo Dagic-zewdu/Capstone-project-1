@@ -1,0 +1,128 @@
+#about-main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20%;
+  padding-right: 20%;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/mobile-bg.png);
+  align-content: space-between;
+}
+
+.about-text-2 {
+  font-size: 50px;
+  width: 75%;
+  font-weight: bold;
+  margin-top: 20px;
+  background-image: url('../images/tittle-bg.jpg');
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.about-text-3 {
+  font-family: "Lato", sans-serif;
+  padding: 20px 20px 20px 0;
+  width: 95%;
+  border: 2px #fff solid;
+  background-color: #fff;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#history {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5%;
+}
+
+.history-text {
+  width: 70%;
+}
+
+.history-img {
+  width: 30%;
+}
+
+hr.history-experience {
+  border: none;
+  width: 100%;
+  padding: 12px;
+  border-top: 3px solid #eee;
+}
+
+#experience {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.experience-img-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.experience-item {
+  margin-right: 20px;
+  position: relative;
+}
+
+.experience-img {
+  width: 100%;
+  background-color: #ec5242;
+  display: block;
+}
+
+.overlay-exp {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #ff4935;
+}
+
+.experince-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.experince-text-1 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.experience-item .overlay-exp {
+  opacity: 0.8;
+}
+
+footer {
+  margin-top: 40px;
+}
+
+.about-footer {
+  background-color: #272a31;
+  padding-top: 3%;
+}
