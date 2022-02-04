@@ -80,7 +80,7 @@ hr {
 }
 
 .font-light {
-  font-weight: lighter;
+  color: #6f6d6d;
 }
 
 .font-small {
@@ -408,7 +408,7 @@ footer {
 
 .logo-footer {
   display: flex;
-  width: 30%;
+  width: 76%;
   align-items: center;
   justify-content: center;
 }

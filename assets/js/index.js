@@ -36,7 +36,7 @@ const renderDevelopers = () => {
    </div>
 </div>`;
   });
-  coders.innerHTML = developers;
+  if (coders) { coders.innerHTML = developers; }
 };
 
 renderDevelopers();
