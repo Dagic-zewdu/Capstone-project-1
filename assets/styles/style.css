@@ -127,6 +127,7 @@ hr {
   width: 100%;
   text-align: center;
   margin-top: 30px;
+  overflow-y: none;
 }
 
 .overlay a {
@@ -194,7 +195,7 @@ hr {
 }
 
 #main {
-  min-height: 95vh;
+  min-height: 110vh;
   display: flex;
   flex-direction: column;
   padding-left: 15%;
@@ -209,16 +210,20 @@ hr {
 }
 
 .text-1 {
-  font-size: 40px;
+  font-size: 30px;
   width: 50%;
   margin-top: 20px;
 }
 
 .text-2 {
-  font-size: 40px;
+  font-size: 50px;
   width: 50%;
   font-weight: bold;
   margin-top: 20px;
+  background-image: url('../images/tittle-bg.jpg');
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .text-3 {
@@ -238,6 +243,7 @@ hr {
 .text-5 {
   width: 60%;
   margin-top: 20px;
+  color: #918f8f;
 }
 
 .text-white {
@@ -419,10 +425,26 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-  #about-main {
-    height: 120vh !important;
+  #main {
+    height: 70vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-left: 5%;
   }
-
+  #about-main {
+    height: 100vh !important;
+    padding-left: 5% !important;
+    padding-right: 5%!important;
+  }
+  .about-text-2 {
+    font-size: 35px !important;
+    width: 100%;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+.logo-footer {
+  width: 96% !important;
+}
   .experience-img-container {
     width: 90%;
   }
@@ -493,20 +515,17 @@ footer {
   }
 
   .text-1 {
-    font-size: 20px;
+    font-size: 25px;
     width: 95%;
     font-weight: bold;
     margin-top: 120px;
-  }
-
-  #main {
-    padding-left: 5%;
   }
 
   .text-2 {
     width: 100%;
     font-weight: bold;
     margin-top: 10px;
+    font-size: 35px;
   }
 
   .text-3 {
