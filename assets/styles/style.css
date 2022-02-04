@@ -127,7 +127,7 @@ hr {
   width: 100%;
   text-align: center;
   margin-top: 30px;
-  overflow-y: none;
+  overflow-y: hidden;
 }
 
 .overlay a {
@@ -221,7 +221,7 @@ hr {
   font-weight: bold;
   margin-top: 20px;
   background-image: url('../images/tittle-bg.jpg');
-  background-clip: text;
+  background-clip: border-box;
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -427,24 +427,27 @@ footer {
 @media only screen and (max-width: 768px) {
   #main {
     height: 70vh;
-    padding-left: 10%;
     padding-right: 10%;
     padding-left: 5%;
   }
+
   #about-main {
     height: 100vh !important;
     padding-left: 5% !important;
-    padding-right: 5%!important;
+    padding-right: 5% !important;
   }
+
   .about-text-2 {
     font-size: 35px !important;
     width: 100%;
     font-weight: bold;
     margin-top: 20px;
   }
-.logo-footer {
-  width: 96% !important;
-}
+
+  .logo-footer {
+    width: 96% !important;
+  }
+
   .experience-img-container {
     width: 90%;
   }
@@ -593,10 +596,6 @@ footer {
     position: relative;
     margin-top: 30px;
     font-size: 30px;
-  }
-
-  .logo-footer {
-    width: 70%;
   }
 }
 
