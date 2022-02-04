@@ -421,13 +421,13 @@ footer {
 }
 
 .footer-img-container {
-  flex:1;
+  flex: 1;
   display: flex;
   justify-content: center;
 }
 
 .footer-img {
-  height:120px;
+  height: 120px;
   width: 120px;
   object-fit: cover;
 }
@@ -456,9 +456,10 @@ footer {
     margin-top: 20px;
   }
 
-   footer {
+  footer {
     padding-top: 5%;
-   }
+  }
+
   .logo-footer {
     width: 90% !important;
   }
